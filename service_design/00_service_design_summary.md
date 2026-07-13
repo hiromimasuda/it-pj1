@@ -1,7 +1,7 @@
 # 00 サービス設計サマリー(全体地図)
 
 - 最終更新:2026-07-13
-- 状態:Phase 0〜10の設計完了。**全ファイル仮案・Hiromi承認待ち**(承認事項の一覧は `20_executive_recommendation.md` §15)。
+- 状態:**Phase 0〜10の設計完了+運用キット完備(運用可能状態)**。不明点は仮案として決定済みで、運用前・運用中に改善する方針(Hiromi指示 2026-07-13)。承認事項の一覧は `20_executive_recommendation.md` §15 と `22_launch_checklist.md` A。
 - 優先順位:このフォルダ内で記述が食い違う場合、`20_executive_recommendation.md` → 各詳細ファイルの順。正本(`context/01`)との差分は承認後に正本へ反映する。
 
 ## サービス(一文)
@@ -42,10 +42,18 @@
 | | `18_customer_message_templates.md` | 提案文3種+運用文面4種 |
 | | `19_provider_time_tracking_template.md` | 検証C記録表 |
 | 最終提言 | `20_executive_recommendation.md` | 判定・今週の一手・承認依頼一覧 |
+| 運用キット | `21_operations_runbook.md` | 1案件のDay-by-day実行手順・例外処理 |
+| | `22_launch_checklist.md` | 運用開始前チェックリスト・週次セルフレビュー |
+| | `23_sample_kit_weekly_report.md` | 実行キット雛形:週次報告(プロンプト・テンプレ・チェックリスト) |
+| | `24_sample_kit_approval_request.md` | 実行キット雛形:承認依頼文(承認者プロファイル含む) |
+| | `25_design_test_results.md` | 架空サンプル3件への設計テスト結果と設計修正 |
+| | `26_candidate_tracker_template.md` | 候補者リスト・検証A/B/Cトラッカー(実名はローカル管理) |
+| | `27_application_terms_draft.md` | 申込み確認事項・支払い運用(仮案) |
+| | `28_sot_update_proposal.md` | 正本v0.3更新案・受入基準との照合 |
 
-## 検証開始までに残っている作業(Hiromiのみ可能)
+## 検証開始までに残っている作業(Hiromiのみ可能・`22`Aに集約)
 
-1. `20` §15の承認事項への回答
-2. 支払い方法(振込先等)の決定と `13` への追記
-3. 現職の就業規則(副業規定)の確認
-4. 候補者20名のリストアップ(実名リストはローカル管理)
+1. 就業規則(副業規定)の確認
+2. 検証開始日(Day 1)の決定と候補者20名のリストアップ
+3. 提案文の口調調整と振込先口座の決定
+4. `20` §15・`28` の承認(承認後に正本v0.3を反映)
